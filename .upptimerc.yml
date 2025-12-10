@@ -20,5 +20,5 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: INHFL Status
   introTitle: "INHFL Status"
-  introMessage: Live status of the INHFL platform
+  introMessage: Live status of the INHFL Platform
   navbar:
