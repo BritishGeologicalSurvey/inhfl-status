@@ -15,6 +15,7 @@ sites:
       - 401
 
 status-website:
+  themeUrl: https://britishgeologicalsurvey.github.io/inhfl-status/theme.css
   baseUrl: /inhfl-status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: INHFL Status
