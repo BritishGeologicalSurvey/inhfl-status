@@ -4,19 +4,19 @@
     "url": "https://inhfl-uat.bgs.ac.uk/",
     "icon": "https://icons.duckduckgo.com/ip3/inhfl-uat.bgs.ac.uk.ico",
     "slug": "inhfl-gui-uat",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "99.55%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.97%",
     "time": 1133,
-    "timeDay": 864,
-    "timeWeek": 1190,
+    "timeDay": 950,
+    "timeWeek": 1183,
     "timeMonth": 1133,
     "timeYear": 1133,
     "dailyMinutesDown": {
-      "2025-12-24": 0
+      "2025-12-24": 7
     }
   },
   {
@@ -24,19 +24,19 @@
     "url": "https://inhfl-api-uat.bgs.ac.uk/browser/graphql",
     "icon": "https://icons.duckduckgo.com/ip3/inhfl-api-uat.bgs.ac.uk.ico",
     "slug": "inhfl-graph-ql-uat",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 681,
-    "timeDay": 608,
-    "timeWeek": 715,
-    "timeMonth": 681,
-    "timeYear": 681,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "99.55%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.97%",
+    "time": 678,
+    "timeDay": 617,
+    "timeWeek": 708,
+    "timeMonth": 678,
+    "timeYear": 678,
     "dailyMinutesDown": {
-      "2025-12-24": 0
+      "2025-12-24": 7
     }
   }
 ]
