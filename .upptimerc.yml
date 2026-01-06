@@ -13,6 +13,14 @@ sites:
       { "query": "{ __typename }" }
     expectedStatusCodes:
       - 401
+  - name: INHFL Account Login (AWS Cognito)
+    url: https://cognito-idp.eu-west-2.amazonaws.com/eu-west-2_MG1sXAsVx/.well-known/openid-configuration
+    method: GET
+    expectedStatusCodes:
+      - 200
+    expectedBody:
+      - '"issuer"'
+
 
 status-website:
   themeUrl: https://britishgeologicalsurvey.github.io/inhfl-status/theme.css
