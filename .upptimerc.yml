@@ -2,9 +2,9 @@ owner: BritishGeologicalSurvey
 repo: inhfl-status 
 
 sites:
-  - name: INHFL GUI UAT
+  - name: INHFL GUI
     url: https://inhfl-uat.bgs.ac.uk/
-  - name: INHFL GraphQL UAT
+  - name: INHFL API
     url: https://inhfl-api-uat.bgs.ac.uk/browser/graphql
     method: POST
     headers:
@@ -13,7 +13,7 @@ sites:
       { "query": "{ __typename }" }
     expectedStatusCodes:
       - 401
-  - name: INHFL Account Login (AWS Cognito)
+  - name: INHFL Login 
     url: https://cognito-idp.eu-west-2.amazonaws.com/eu-west-2_MG1sXAsVx/.well-known/openid-configuration
     method: GET
     expectedStatusCodes:
@@ -29,4 +29,6 @@ status-website:
   name: INHFL Status
   introTitle: "INHFL Status"
   introMessage: Live status of the INHFL Platform
+  i18n:
+    locale: en-GB
   navbar:
