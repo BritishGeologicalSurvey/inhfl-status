@@ -21,7 +21,6 @@ sites:
     expectedBody:
       - '"issuer"'
 
-
 status-website:
   themeUrl: https://britishgeologicalsurvey.github.io/inhfl-status/theme.css
   baseUrl: /inhfl-status
@@ -29,6 +28,7 @@ status-website:
   name: INHFL Status
   introTitle: "INHFL Status"
   introMessage: Live status of the INHFL Platform
-  i18n:
-    locale: en-GB
   navbar:
+
+i18n:
+  locale: en-GB
