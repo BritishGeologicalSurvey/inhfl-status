@@ -3,9 +3,9 @@ repo: inhfl-status
 
 sites:
   - name: INHFL GUI
-    url: https://inhfl-uat.bgs.ac.uk/
+    url: https://inhfl.bgs.ac.uk/
   - name: INHFL API
-    url: https://inhfl-api-uat.bgs.ac.uk/browser/graphql
+    url: https://inhfl-api.bgs.ac.uk/browser/graphql
     method: POST
     headers:
       - "Content-Type: application/json"
