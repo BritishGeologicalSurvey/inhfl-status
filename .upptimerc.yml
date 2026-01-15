@@ -14,7 +14,7 @@ sites:
     expectedStatusCodes:
       - 401
   - name: INHFL Login 
-    url: https://cognito-idp.eu-west-2.amazonaws.com/eu-west-2_MG1sXAsVx/.well-known/openid-configuration
+    url: https://cognito-idp.eu-west-2.amazonaws.com/eu-west-2_ePN3nFBN8/.well-known/openid-configuration
     method: GET
     expectedStatusCodes:
       - 200
