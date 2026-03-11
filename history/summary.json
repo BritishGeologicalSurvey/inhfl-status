@@ -4,10 +4,10 @@
     "url": "https://inhfl.bgs.ac.uk/",
     "icon": "https://icons.duckduckgo.com/ip3/inhfl.bgs.ac.uk.ico",
     "slug": "inhfl-gui",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1269,
@@ -15,16 +15,18 @@
     "timeWeek": 1101,
     "timeMonth": 1239,
     "timeYear": 1269,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-03-11": 1
+    }
   },
   {
     "name": "INHFL API",
     "url": "https://inhfl-api.bgs.ac.uk/browser/graphql",
     "icon": "https://icons.duckduckgo.com/ip3/inhfl-api.bgs.ac.uk.ico",
     "slug": "inhfl-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -33,7 +35,9 @@
     "timeWeek": 663,
     "timeMonth": 769,
     "timeYear": 778,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-03-11": 0
+    }
   },
   {
     "name": "INHFL Login",
