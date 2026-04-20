@@ -5,15 +5,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/inhfl.bgs.ac.uk.ico",
     "slug": "inhfl-gui",
     "status": "up",
-    "uptime": "99.96%",
+    "uptime": "99.97%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.96%",
+    "uptimeYear": "99.97%",
     "time": 1253,
-    "timeDay": 1362,
-    "timeWeek": 1144,
-    "timeMonth": 1227,
+    "timeDay": 1204,
+    "timeWeek": 1180,
+    "timeMonth": 1221,
     "timeYear": 1253,
     "dailyMinutesDown": {
       "2026-03-11": 51
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
-    "time": 770,
-    "timeDay": 762,
-    "timeWeek": 670,
-    "timeMonth": 738,
-    "timeYear": 770,
+    "time": 769,
+    "timeDay": 699,
+    "timeWeek": 684,
+    "timeMonth": 736,
+    "timeYear": 769,
     "dailyMinutesDown": {
       "2026-03-11": 50
     }
@@ -50,11 +50,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 530,
-    "timeDay": 648,
-    "timeWeek": 537,
-    "timeMonth": 532,
-    "timeYear": 530,
+    "time": 531,
+    "timeDay": 582,
+    "timeWeek": 561,
+    "timeMonth": 535,
+    "timeYear": 531,
     "dailyMinutesDown": {}
   }
 ]
