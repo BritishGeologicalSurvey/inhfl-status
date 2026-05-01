@@ -1,7 +1,7 @@
 url: https://inhfl-api.bgs.ac.uk/browser/graphql
-status: down
-code: 503
-responseTime: 585
-lastUpdated: 2026-05-01T13:50:14.906Z
+status: up
+code: 401
+responseTime: 690
+lastUpdated: 2026-05-01T15:38:04.327Z
 startTime: 2026-01-09T08:54:14.971Z
 generator: Upptime <https://github.com/upptime/upptime>
