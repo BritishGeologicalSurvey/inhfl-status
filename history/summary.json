@@ -26,11 +26,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/inhfl-api.bgs.ac.uk.ico",
     "slug": "inhfl-api",
     "status": "up",
-    "uptime": "97.91%",
+    "uptime": "97.93%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "97.91%",
+    "uptimeYear": "97.93%",
     "time": 747,
     "timeDay": 647,
     "timeWeek": 726,
@@ -50,9 +50,9 @@
     "url": "https://cognito-idp.eu-west-2.amazonaws.com/eu-west-2_ePN3nFBN8/.well-known/openid-configuration",
     "icon": "https://icons.duckduckgo.com/ip3/cognito-idp.eu-west-2.amazonaws.com.ico",
     "slug": "inhfl-login",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -61,6 +61,8 @@
     "timeWeek": 433,
     "timeMonth": 440,
     "timeYear": 514,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-06-02": 0
+    }
   }
 ]
