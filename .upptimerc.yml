@@ -4,8 +4,14 @@ repo: inhfl-status
 sites:
   - name: INHFL GUI
     url: https://inhfl.bgs.ac.uk/
+    maxRetries: 5        
+    connectTimeout: 60   
+    requestTimeout: 90   
   - name: INHFL API
     url: https://inhfl-api.bgs.ac.uk/browser/graphql
+    maxRetries: 5        
+    connectTimeout: 60   
+    requestTimeout: 90   
     method: POST
     headers:
       - "Content-Type: application/json"
