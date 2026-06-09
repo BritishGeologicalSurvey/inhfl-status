@@ -6,7 +6,9 @@ sites:
     url: https://inhfl.bgs.ac.uk/
     maxRetries: 5        
     connectTimeout: 60   
-    requestTimeout: 90   
+    requestTimeout: 90
+    headers:
+      - "User-Agent: Upptime-Monitor/1.0 (Internal Network Monitoring) INHFL GUI"
   - name: INHFL API
     url: https://inhfl-api.bgs.ac.uk/browser/graphql
     maxRetries: 5        
@@ -19,6 +21,8 @@ sites:
       { "query": "{ __typename }" }
     expectedStatusCodes:
       - 401
+    headers:
+      - "User-Agent: Upptime-Monitor/1.0 (Internal Network Monitoring) INHFL API"
   - name: INHFL Login 
     url: https://cognito-idp.eu-west-2.amazonaws.com/eu-west-2_ePN3nFBN8/.well-known/openid-configuration
     method: GET
