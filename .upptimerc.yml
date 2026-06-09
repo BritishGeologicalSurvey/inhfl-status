@@ -1,34 +1,35 @@
-owner: BritishGeologicalSurvey 
-repo: inhfl-status 
+owner: BritishGeologicalSurvey
+repo: inhfl-status
 
 sites:
   - name: INHFL GUI
     url: https://inhfl.bgs.ac.uk/
-    maxRetries: 5        
-    connectTimeout: 60   
+    maxRetries: 5
+    connectTimeout: 60
     requestTimeout: 90
     headers:
-      - "User-Agent: Upptime-Monitor/1.0 (Internal Network Monitoring) INHFL GUI"
+      User-Agent: "Upptime-Monitor/1.0 (Internal Network Monitoring) INHFL GUI"
+
   - name: INHFL API
     url: https://inhfl-api.bgs.ac.uk/browser/graphql
-    maxRetries: 5        
-    connectTimeout: 60   
-    requestTimeout: 90   
+    maxRetries: 5
+    connectTimeout: 60
+    requestTimeout: 90
     method: POST
     headers:
-      - "Content-Type: application/json"
-      - "User-Agent: Upptime-Monitor/1.0 (Internal Network Monitoring) INHFL API"
+      Content-Type: "application/json"
+      User-Agent: "Upptime-Monitor/1.0 (Internal Network Monitoring) INHFL API"
     body: |
       { "query": "{ __typename }" }
     expectedStatusCodes:
-      - 401      
-  - name: INHFL Login 
+      - 401
+
+  - name: INHFL Login
     url: https://cognito-idp.eu-west-2.amazonaws.com/eu-west-2_ePN3nFBN8/.well-known/openid-configuration
     method: GET
     expectedStatusCodes:
       - 200
-    expectedBody:
-      - '"issuer"'
+    expectedBody: '"issuer"'
 
 status-website:
   themeUrl: https://britishgeologicalsurvey.github.io/inhfl-status/theme.css
@@ -37,7 +38,7 @@ status-website:
   name: INHFL Status
   introTitle: "INHFL Status"
   introMessage: Live status of the INHFL Platform
-  navbar:
+  navbar: []
 
 i18n:
   locale: en-GB
