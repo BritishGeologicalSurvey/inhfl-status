@@ -8,17 +8,17 @@ sites:
     connectTimeout: 60
     requestTimeout: 90
     headers:
-      User-Agent: "Upptime-Monitor/1.0 (Internal Network Monitoring) INHFL GUI"
+      - "User-Agent: Upptime-Monitor/1.0 (Internal Network Monitoring) INHFL GUI"
 
   - name: INHFL API
     url: https://inhfl-api.bgs.ac.uk/browser/graphql
+    method: POST
     maxRetries: 5
     connectTimeout: 60
     requestTimeout: 90
-    method: POST
     headers:
-      Content-Type: "application/json"
-      User-Agent: "Upptime-Monitor/1.0 (Internal Network Monitoring) INHFL API"
+      - "Content-Type: application/json"
+      - "User-Agent: Upptime-Monitor/1.0 (Internal Network Monitoring) INHFL API"
     body: |
       { "query": "{ __typename }" }
     expectedStatusCodes:
@@ -29,7 +29,7 @@ sites:
     method: GET
     expectedStatusCodes:
       - 200
-    expectedBody: '"issuer"'
+    expectedBody: issuer
 
 status-website:
   themeUrl: https://britishgeologicalsurvey.github.io/inhfl-status/theme.css
