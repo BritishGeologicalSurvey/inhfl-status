@@ -4,16 +4,16 @@
     "url": "https://inhfl.bgs.ac.uk/",
     "icon": "https://icons.duckduckgo.com/ip3/inhfl.bgs.ac.uk.ico",
     "slug": "inhfl-gui",
-    "status": "up",
+    "status": "down",
     "uptime": "98.23%",
-    "uptimeDay": "19.31%",
-    "uptimeWeek": "64.36%",
-    "uptimeMonth": "91.80%",
+    "uptimeDay": "23.92%",
+    "uptimeWeek": "64.20%",
+    "uptimeMonth": "91.76%",
     "uptimeYear": "98.23%",
     "time": 1205,
-    "timeDay": 1043,
-    "timeWeek": 1089,
-    "timeMonth": 1081,
+    "timeDay": 1113,
+    "timeWeek": 1081,
+    "timeMonth": 1084,
     "timeYear": 1205,
     "dailyMinutesDown": {
       "2026-03-11": 51,
@@ -23,7 +23,8 @@
       "2026-06-07": 783,
       "2026-06-08": 134,
       "2026-06-09": 335,
-      "2026-06-10": 1100
+      "2026-06-10": 1100,
+      "2026-06-11": 16
     }
   },
   {
@@ -31,16 +32,16 @@
     "url": "https://inhfl-api.bgs.ac.uk/browser/graphql",
     "icon": "https://icons.duckduckgo.com/ip3/inhfl-api.bgs.ac.uk.ico",
     "slug": "inhfl-api",
-    "status": "up",
+    "status": "down",
     "uptime": "96.52%",
-    "uptimeDay": "22.64%",
+    "uptimeDay": "26.14%",
     "uptimeWeek": "66.99%",
     "uptimeMonth": "92.40%",
     "uptimeYear": "96.52%",
     "time": 724,
-    "timeDay": 517,
-    "timeWeek": 578,
-    "timeMonth": 619,
+    "timeDay": 546,
+    "timeWeek": 571,
+    "timeMonth": 620,
     "timeYear": 724,
     "dailyMinutesDown": {
       "2026-03-11": 50,
@@ -54,7 +55,8 @@
       "2026-06-07": 720,
       "2026-06-08": 102,
       "2026-06-09": 304,
-      "2026-06-10": 1069
+      "2026-06-10": 1069,
+      "2026-06-11": 0
     }
   },
   {
@@ -68,11 +70,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.66%",
     "uptimeYear": "99.93%",
-    "time": 508,
-    "timeDay": 523,
-    "timeWeek": 407,
-    "timeMonth": 415,
-    "timeYear": 508,
+    "time": 509,
+    "timeDay": 608,
+    "timeWeek": 412,
+    "timeMonth": 418,
+    "timeYear": 509,
     "dailyMinutesDown": {
       "2026-06-03": 107,
       "2026-06-02": 41
