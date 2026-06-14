@@ -4,16 +4,16 @@
     "url": "https://inhfl.bgs.ac.uk/",
     "icon": "https://icons.duckduckgo.com/ip3/inhfl.bgs.ac.uk.ico",
     "slug": "inhfl-gui",
-    "status": "up",
-    "uptime": "97.84%",
-    "uptimeDay": "76.92%",
-    "uptimeWeek": "66.41%",
-    "uptimeMonth": "89.61%",
-    "uptimeYear": "97.84%",
+    "status": "down",
+    "uptime": "97.83%",
+    "uptimeDay": "75.93%",
+    "uptimeWeek": "66.97%",
+    "uptimeMonth": "89.57%",
+    "uptimeYear": "97.83%",
     "time": 1206,
     "timeDay": 1274,
-    "timeWeek": 1137,
-    "timeMonth": 1103,
+    "timeWeek": 1146,
+    "timeMonth": 1106,
     "timeYear": 1206,
     "dailyMinutesDown": {
       "2026-03-11": 51,
@@ -26,7 +26,8 @@
       "2026-06-10": 1100,
       "2026-06-11": 355,
       "2026-06-12": 272,
-      "2026-06-13": 333
+      "2026-06-13": 333,
+      "2026-06-14": 16
     }
   },
   {
@@ -34,16 +35,16 @@
     "url": "https://inhfl-api.bgs.ac.uk/browser/graphql",
     "icon": "https://icons.duckduckgo.com/ip3/inhfl-api.bgs.ac.uk.ico",
     "slug": "inhfl-api",
-    "status": "up",
+    "status": "down",
     "uptime": "96.22%",
-    "uptimeDay": "81.35%",
-    "uptimeWeek": "69.26%",
+    "uptimeDay": "81.34%",
+    "uptimeWeek": "69.98%",
     "uptimeMonth": "90.50%",
     "uptimeYear": "96.22%",
     "time": 719,
     "timeDay": 632,
-    "timeWeek": 587,
-    "timeMonth": 613,
+    "timeWeek": 591,
+    "timeMonth": 614,
     "timeYear": 719,
     "dailyMinutesDown": {
       "2026-03-11": 50,
@@ -60,7 +61,8 @@
       "2026-06-10": 1069,
       "2026-06-11": 339,
       "2026-06-12": 225,
-      "2026-06-13": 269
+      "2026-06-13": 269,
+      "2026-06-14": 0
     }
   },
   {
@@ -75,9 +77,9 @@
     "uptimeMonth": "99.66%",
     "uptimeYear": "99.93%",
     "time": 509,
-    "timeDay": 593,
-    "timeWeek": 472,
-    "timeMonth": 421,
+    "timeDay": 587,
+    "timeWeek": 501,
+    "timeMonth": 423,
     "timeYear": 509,
     "dailyMinutesDown": {
       "2026-06-03": 107,
